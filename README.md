@@ -1,11 +1,21 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# 🛡️ VaultGen - Secure Password Architect
 
-  <h1>Built with AI Studio</h2>
+A professional-grade, AI-powered random password generator.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 How to Deploy to Netlify (Fastest Way)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1.  **Download your project files**: Ensure you have all the files (`index.html`, `index.tsx`, `App.tsx`, `netlify.toml`, etc.) in a single folder on your computer.
+2.  **Go to Netlify Drop**: Open [app.netlify.com/drop](https://app.netlify.com/drop) in your browser.
+3.  **Drag and Drop**: Drag the entire project folder into the "Drag and drop your site folder here" area.
+4.  **Wait for the URL**: Netlify will instantly deploy your site and provide you with a public URL.
 
-</div>
+## 🛠️ Features
+- **Military Grade Randomization**: Uses the Web Crypto API `window.crypto.getRandomValues`.
+- **Strength Analysis**: Real-time feedback on password complexity.
+- **AI Security Insights**: Powered by Gemini 3 Flash to give professional security tips.
+- **History Tracking**: Keeps your last 10 generated passwords locally.
+- **Responsive Design**: Optimized for mobile and desktop.
+
+## 🔑 Environment Variables
+If you use the AI features in production, ensure you have your API Key configured if you're building with a CI/CD pipeline. For manual drops, the current setup is ready for testing!
